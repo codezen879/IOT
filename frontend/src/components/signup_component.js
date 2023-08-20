@@ -17,7 +17,7 @@ export default function SignUp() {
       e.preventDefault();
 
       console.log(fname, lname, email, password);
-      fetch("http://localhost:5000/register", {
+      fetch("https://iot-2ksh.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
